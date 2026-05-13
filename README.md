@@ -1,28 +1,22 @@
 # Pràctica 2.3 - ML Agents Laberint
 
-## Autor 
+## Autor
+
 Sergi Martínez Vayá
-
-
 
 ## Descripció
 
 En aquesta pràctica he utilitzat Unity ML-Agents per entrenar un agent capaç de trobar l’eixida d’un laberint utilitzant RayPerceptionSensor3D.
 
-L’agent aprén a moure’s pel laberint evitant les parets i intentant arribar a l’objectiu final.
+L’agent aprén a moure’s pel laberint evitant les parets fins arribar a l’objectiu final.
 
-Al principi l’agent es quedava bloquejat, xocava constantment amb les parets o esgotava els passos màxims. Després de diverses proves ajustant recompenses, passos màxims i la forma del laberint, finalment va començar a completar-lo correctament.
+Al principi l’agent es quedava bloquejat, xocava moltes vegades amb les parets o esgotava els passos màxims. Després de diverses proves canviant recompenses, passos màxims i simplificant algunes parts del laberint, finalment va començar a completar-lo correctament en la majoria d’intents.
 
 ## Escena
 
-L’escena està formada per:
+L’escena està formada per diferents parets creant un laberint, un objectiu final i un agent amb Rigidbody i RayPerceptionSensor3D.
 
-- Un pla 20x20
-- Parets creant el laberint
-- Un objectiu final
-- Un agent amb Rigidbody i RayPerceptionSensor3D
-
-El laberint es va simplificar respecte a les primeres proves perquè l’agent tenia dificultats per aprendre en un entorn massa gran.
+El laberint es va simplificar respecte a les primeres proves perquè l’agent tenia dificultats per aprendre en un entorn massa gran i amb recorreguts molt llargs.
 
 ## RayPerceptionSensor3D
 
@@ -47,7 +41,7 @@ L’agent utilitza accions discretes:
 - 2 → Girar esquerra
 - 3 → Girar dreta
 
-També es va implementar el mètode Heuristic() per poder provar manualment el moviment amb teclat.
+També es va implementar el mètode Heuristic() per poder provar manualment el moviment amb el teclat.
 
 ## Recompenses i penalitzacions
 
@@ -89,11 +83,11 @@ AddReward(-0.3f);
 
 Durant l’entrenament es van ajustar diferents valors:
 
-- Grandària del laberint
-- MaxStep
-- Recompenses
-- Penalitzacions
+- La grandària del laberint
+- El valor de MaxStep
+- Les recompenses
+- Les penalitzacions
 
-Finalment l’agent va aconseguir completar el laberint de manera consistent.
+Finalment l’agent va aprendre a completar el laberint de forma bastant estable.
 
 Per comprovar l’aprenentatge es va utilitzar TensorBoard.
