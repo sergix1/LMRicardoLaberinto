@@ -1,0 +1,29 @@
+{
+    "My Behavior": {
+        "checkpoints": [
+            {
+                "steps": 8909,
+                "file_path": "results\\laberinto5\\My Behavior\\My Behavior-8909.onnx",
+                "reward": -3.5058333383252225,
+                "creation_time": 1778672709.7468987,
+                "auxillary_file_paths": [
+                    "results\\laberinto5\\My Behavior\\My Behavior-8909.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 8909,
+            "file_path": "results\\laberinto5\\My Behavior.onnx",
+            "reward": -3.5058333383252225,
+            "creation_time": 1778672709.7468987,
+            "auxillary_file_paths": [
+                "results\\laberinto5\\My Behavior\\My Behavior-8909.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "1.1.0",
+        "torch_version": "2.8.0+cpu"
+    }
+}

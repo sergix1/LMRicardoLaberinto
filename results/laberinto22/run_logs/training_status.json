@@ -1,0 +1,65 @@
+{
+    "My Behavior": {
+        "checkpoints": [
+            {
+                "steps": 613248,
+                "file_path": "results\\laberinto22\\My Behavior\\My Behavior-613248.onnx",
+                "reward": null,
+                "creation_time": 1778690709.1920612,
+                "auxillary_file_paths": [
+                    "results\\laberinto22\\My Behavior\\My Behavior-613248.pt"
+                ]
+            },
+            {
+                "steps": 999952,
+                "file_path": "results\\laberinto22\\My Behavior\\My Behavior-999952.onnx",
+                "reward": null,
+                "creation_time": 1778691578.592448,
+                "auxillary_file_paths": [
+                    "results\\laberinto22\\My Behavior\\My Behavior-999952.pt"
+                ]
+            },
+            {
+                "steps": 1000464,
+                "file_path": "results\\laberinto22\\My Behavior\\My Behavior-1000464.onnx",
+                "reward": null,
+                "creation_time": 1778691578.7100182,
+                "auxillary_file_paths": [
+                    "results\\laberinto22\\My Behavior\\My Behavior-1000464.pt"
+                ]
+            },
+            {
+                "steps": 1499968,
+                "file_path": "results\\laberinto22\\My Behavior\\My Behavior-1499968.onnx",
+                "reward": null,
+                "creation_time": 1778692794.4020727,
+                "auxillary_file_paths": [
+                    "results\\laberinto22\\My Behavior\\My Behavior-1499968.pt"
+                ]
+            },
+            {
+                "steps": 1874448,
+                "file_path": "results\\laberinto22\\My Behavior\\My Behavior-1874448.onnx",
+                "reward": null,
+                "creation_time": 1778693581.510335,
+                "auxillary_file_paths": [
+                    "results\\laberinto22\\My Behavior\\My Behavior-1874448.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 1874448,
+            "file_path": "results\\laberinto22\\My Behavior.onnx",
+            "reward": null,
+            "creation_time": 1778693581.510335,
+            "auxillary_file_paths": [
+                "results\\laberinto22\\My Behavior\\My Behavior-1874448.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "1.1.0",
+        "torch_version": "2.8.0+cpu"
+    }
+}

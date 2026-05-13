@@ -1,0 +1,65 @@
+{
+    "My Behavior": {
+        "checkpoints": [
+            {
+                "steps": 319149,
+                "file_path": "results\\laberinto21\\My Behavior\\My Behavior-319149.onnx",
+                "reward": null,
+                "creation_time": 1778687378.3636153,
+                "auxillary_file_paths": [
+                    "results\\laberinto21\\My Behavior\\My Behavior-319149.pt"
+                ]
+            },
+            {
+                "steps": 475317,
+                "file_path": "results\\laberinto21\\My Behavior\\My Behavior-475317.onnx",
+                "reward": -0.01072677552777653,
+                "creation_time": 1778687933.4704802,
+                "auxillary_file_paths": [
+                    "results\\laberinto21\\My Behavior\\My Behavior-475317.pt"
+                ]
+            },
+            {
+                "steps": 484485,
+                "file_path": "results\\laberinto21\\My Behavior\\My Behavior-484485.onnx",
+                "reward": -0.007300693580570321,
+                "creation_time": 1778688020.6953607,
+                "auxillary_file_paths": [
+                    "results\\laberinto21\\My Behavior\\My Behavior-484485.pt"
+                ]
+            },
+            {
+                "steps": 499997,
+                "file_path": "results\\laberinto21\\My Behavior\\My Behavior-499997.onnx",
+                "reward": -0.21075782211846672,
+                "creation_time": 1778688142.7298799,
+                "auxillary_file_paths": [
+                    "results\\laberinto21\\My Behavior\\My Behavior-499997.pt"
+                ]
+            },
+            {
+                "steps": 605253,
+                "file_path": "results\\laberinto21\\My Behavior\\My Behavior-605253.onnx",
+                "reward": -0.19347241239544624,
+                "creation_time": 1778688436.5530932,
+                "auxillary_file_paths": [
+                    "results\\laberinto21\\My Behavior\\My Behavior-605253.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 605253,
+            "file_path": "results\\laberinto21\\My Behavior.onnx",
+            "reward": -0.19347241239544624,
+            "creation_time": 1778688436.5530932,
+            "auxillary_file_paths": [
+                "results\\laberinto21\\My Behavior\\My Behavior-605253.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "1.1.0",
+        "torch_version": "2.8.0+cpu"
+    }
+}
